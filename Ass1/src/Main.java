@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
         // Part 3 – Using classes and objects
-        System.out.println("// Part 3 – Using classes and objects");
+        System.out.println("// Part lll  Using classes and objects");
         // Create a General Practitioner using the parameterized constructor
         GeneralPractitioner gp1 = new GeneralPractitioner(101, "Dr. Samuel Morran", "Colposcopy", 12);
         gp1.printInfo();
@@ -34,7 +34,7 @@ public class Main {
     Appointment appt1 = new Appointment("John Doe", "123-456-7890", "10:00", gp3);
     Appointment appt2 = new Appointment("Smith Start", "987-654-3210", "14:30", gp1);
     Appointment appt3 = new Appointment("Alice Johnson", "555-123-4567", "11:00", sp1);
-    Appointment appt4 = new Appointment("Bob Marley", "444-987-6543", "16:00", sp2);
+    Appointment appt4 = new Appointment("Bob Marley", "444-987-6543", "16:00", gp2);
     
     // Print appointments
     appt1.printAppointmentDetails();
